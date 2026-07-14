@@ -1,0 +1,21 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "wlsb-portal",
+      "runtimeExecutable": "powershell",
+      "runtimeArgs": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "D:\\Code\\WLSB Sitemap\\.claude\\serve.ps1",
+        "-Port",
+        "5510",
+        "-Root",
+        "D:\\Code\\WLSB Sitemap"
+      ],
+      "port": 5510
+    }
+  ]
+}
